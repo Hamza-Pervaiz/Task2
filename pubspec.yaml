@@ -1,0 +1,30 @@
+name: task_nextpak
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  firebase_core: ^3.10.1
+  firebase_auth: ^5.4.1
+  cloud_firestore: ^5.6.2
+  google_sign_in: ^5.4.0
+  provider: 
+  connectivity_plus:
+  shared_preferences:
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images/
